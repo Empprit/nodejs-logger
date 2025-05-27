@@ -17,15 +17,15 @@ function createHandler(
     handlers.push(new transports.Console(consoleOptions));
 
     // Transport untuk file stream
-    // if (process.env.NODE_ENV === "production") {
-    // Menggabungkan konfig bawaan dengan konfig khusus
-    const fileOptions = <DailyRotateFileTransportOptions>{
-        ...createFileOptions(name),
-        ...overrideFileOptions,
-    };
+    if (process.env.NODE_ENV === "production") {
+        // Menggabungkan konfig bawaan dengan konfig khusus
+        const fileOptions = <DailyRotateFileTransportOptions>{
+            ...createFileOptions(name),
+            ...overrideFileOptions,
+        };
 
-    handlers.push(new transports.DailyRotateFile(fileOptions));
-    // }
+        handlers.push(new transports.DailyRotateFile(fileOptions));
+    }
 
     // Ouput keduanya sebagai list
     return handlers;
