@@ -1,0 +1,47 @@
+{
+    "name": "nodejs-logger",
+    "version": "1.0",
+    "description": "Logger favorit bangat bingitz bingo; lesgo",
+    "homepage": "https://github.com/Empprit/template-nodejs-logger",
+    "license": "GPL-3.0-only",
+    "private": false,
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "winston": "^3.17.0",
+        "winston-daily-rotate-file": "^5.0.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.26.0",
+        "@swc/core": "^1.11.24",
+        "@swc/helpers": "^0.5.17",
+        "@types/node": "^22.15.3",
+        "eslint": "^9.26.0",
+        "eslint-config-prettier": "^10.1.2",
+        "globals": "^16.0.0",
+        "prettier": "^3.5.3",
+        "regenerator-runtime": "^0.14.1",
+        "ts-node": "^10.9.2",
+        "typescript-eslint": "^8.31.1"
+    },
+    "keywords": [
+        "Template",
+        "Server"
+    ],
+    "author": {
+        "name": "Fachry Azriel F.",
+        "email": "rabisunarddhy@gmail.com",
+        "url": "https://github.com/rabenardi"
+    },
+    "contributors": [
+        {
+            "name": "Mochammad Andrian Casillasyah",
+            "email": "andriancasilasyah01@gmail.com",
+            "url": "https://github.com/SirAndriC"
+        },
+        {
+            "name": "Vedanta Sanggra Dinata",
+            "email": "vsanggtn@gmail.com",
+            "url": "https://github.com/Venatta"
+        }
+    ]
+}

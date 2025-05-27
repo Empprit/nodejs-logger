@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "isolatedModules": false,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "ts-node": {
+        "swc": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig"
+}
